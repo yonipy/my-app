@@ -1,0 +1,29 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.name {
+    margin: 4px;
+    text-align: center;
+}
+
+.name h4 {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.button1, .button2, .button3 {
+    border-radius: 4px;
+    background-color: rgba(172, 169, 169, 0.719);
+    font-size: 30px;
+    margin: 12px;
+    background-color: transparent;
+    transition: 0.8s;
+}
+
+.button1:hover, .button2:hover, .button3:hover {
+    opacity: .3%;
+}
